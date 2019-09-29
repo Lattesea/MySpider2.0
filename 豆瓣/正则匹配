@@ -1,0 +1,106 @@
+"Accept": "*/*",
+"Accept-Encoding": "gzip, deflate, br",
+"Accept-Language": "zh-CN,zh;q=0.9",
+"Connection": "keep-alive",
+"Cookie": "bid=LIjHECwiqx8; douban-fav-remind=1; acw_tc=2760823d15682778903202703e4d80a50a682a65f113a246f78daf9597bbf7; ll="118281"; _vwo_uuid_v2=DDF227ECBE4CA85C8A663EC3A8DA27A98|af0d67a30ee8055abf40ef6b7c323e37; acw_sc__v3=5d8da960f361c5b476ef5bb3838a11989eac6e2e; acw_sc__v2=5d8da95fc256b073a36cdba9db155954dc579050; ap_v=0,6.0; __utma=30149280.1542742931.1568277891.1568637520.1569565044.6; __utmb=30149280.0.10.1569565044; __utmc=30149280; __utmz=30149280.1569565044.6.4.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utma=223695111.343267989.1568277891.1568637520.1569565044.6; __utmb=223695111.0.10.1569565044; __utmc=223695111; __utmz=223695111.1569565044.6.4.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; _pk_ref.100001.4cf6=%5B%22%22%2C%22%22%2C1569565044%2C%22https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D-_vZNQxBgOoI1iqsArm6T5Z4iiQd_VmuHKjCkFPk8TJyZAHhCTxmXLl5r34lIEIW%26wd%3D%26eqid%3D80596205000ff7b1000000065d8da970%22%5D; _pk_ses.100001.4cf6=*; _pk_id.100001.4cf6=ac6757b02b1fdcd9.1568277892.6.1569565106.1568637522.",
+"Host": "movie.douban.com",
+"Referer": "https://movie.douban.com/typerank?type_name=%E5%89%A7%E6%83%85&type=11&interval_id=100:90&action=",
+"Sec-Fetch-Mode": "cors",
+"Sec-Fetch-Site": "same-origin",
+"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36",
+"X-Requested-With": "XMLHttpRequest",
+
+import requests
+import time
+import random
+import re
+from useragents import ua_list
+​
+class DoubanSpider(object):
+    def __init__(self):
+        self.url = 'https://movie.douban.com/j/chart/top_list?'
+        self.i = 0
+​
+    # 获取随机headers
+    def get_headers(self):
+        headers = {'User-Agent':random.choice(ua_list)}
+​
+        return headers
+​
+    # 获取页面
+    def get_page(self,params):
+        headers = self.get_headers()
+        res = requests.get(url=self.url,params=params,headers=headers)
+        res.encoding = 'utf-8'
+        # 返回 python 数据类型
+        html = res.json()
+        self.parse_page(html)
+​
+    # 解析并保存数据
+    def parse_page(self,html):
+        item = {}
+        # html为大列表 [{电影1信息},{},{}]
+        for one in html:
+            # 名称 + 评分
+            item['name'] = one['title'].strip()
+            item['score'] = float(one['score'].strip())
+            # 打印测试
+            print(item)
+            self.i += 1
+​
+    # 获取电影总数
+    def total_number(self,type_number):
+        # F12抓包抓到的地址
+        url = 'https://movie.douban.com/j/chart/top_list_count?type={}&interval_id=100%3A90'.format(type_number)
+        headers = self.get_headers()
+        html = requests.get(url=url,headers=headers).json()
+        total = int(html['total'])
+​
+        return total
+​
+    # 获取所有电影的名字和对应type值
+    def get_all_type_films(self):
+        # 获取 类型和类型码
+        url = 'https://movie.douban.com/chart'
+        headers = self.get_headers()
+        html = requests.get(url=url,headers=headers).text
+        re_bds = r'<a href=.*?type_name=(.*?)&type=(.*?)&.*?</a>'
+        pattern = re.compile(re_bds,re.S)
+        r_list = pattern.findall(html)
+        # 存放所有类型和对应类型码大字典
+        type_dict = {}
+        menu = ''
+        for r in r_list:
+            type_dict[r[0].strip()] = r[1].strip()
+            # 获取input的菜单，显示所有电影类型
+            menu += r[0].strip() + '|'
+​
+        return type_dict,menu
+​
+​
+    # 主函数
+    def main(self):
+        # 获取type的值
+        type_dict,menu = self.get_all_type_films()
+        menu = menu + '\n请做出你的选择:'
+        name = input(menu)
+        type_number = type_dict[name]
+        # 获取电影总数
+        total = self.total_number(type_number)
+        for start in range(0,(total+1),20):
+            params = {
+                'type' : type_number,
+                'interval_id' : '100:90',
+                'action' : '',
+                'start' : str(start),
+                'limit' : '20'
+            }
+            # 调用函数,传递params参数
+            self.get_page(params)
+            # 随机休眠1-3秒
+            time.sleep(random.randint(1,3))
+        print('电影数量:',self.i)
+​
+if __name__ == '__main__':
+    spider = DoubanSpider()
+    spider.main()

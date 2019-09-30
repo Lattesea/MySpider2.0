@@ -8,7 +8,7 @@ class DaomuSpider(scrapy.Spider):
     name = 'daomu'
     allowed_domains = ['www.daomubiji.com']
     start_urls = ['http://www.daomubiji.com/']
-    # basedir = '/home/tarena/novel/'
+    basedir = '/home/tarena/novel/'
 
     def parse(self, response):
         """
@@ -25,31 +25,54 @@ class DaomuSpider(scrapy.Spider):
             item['title'] = a.xpath("./text()").get()
             # 每一部的链接
             link = a.xpath("./@href").get()
+            # 创建一级文件夹
+            onedir = self.basedir + item['title'] + '/'
+            print(onedir)
+            # 判断是否存在文件夹,不存在则创建
+            if not os.path.exists(onedir):
+                os.makedirs(onedir)
 
             # 交给调度器入队列
             yield scrapy.Request(
                 url=link,
-                meta={'item': item},
+                meta={'item': item, 'onedir': onedir},
                 callback=self.parse_two_page
             )
 
     def parse_two_page(self, response):
+        """
+            解析二级页面小说,获得每一节标题和每一节的连接
+        :param response:
+        :return:
+        """
         item = response.meta['item']
+        onedir = response.meta['onedir']
         article_list = response.xpath("//article")
         for article in article_list:
-            name= article.xpath("./a/text()").get()
+            item['name'] = article.xpath("./a/text()").get().replace('', '-')
+            # 处理特殊符号
+            all_chars = '*<>|?\/:"'
+            for char in all_chars:
+                if char in all_chars:
+                    item['name'] = item['name'].replace(char, '-')
             two_link = article.xpath("./a/@href").get()
+            # 创建二级文件夹
+            twodir = onedir + item['name'] + '/'
+            if not os.path.exists(twodir):
+                os.makedirs(twodir)
+            # 交给调度器
             yield scrapy.Request(
                 url=two_link,
-                meta={'item': item, 'name': name},
+                meta={'item': item, 'twodir': twodir},
                 callback=self.parse_three_page
             )
 
     def parse_three_page(self, response):
         item = response.meta['item']
-        item['name'] = response.meta['name']
-        p_list = response.xpath("").extract()
-        content = '\n'.join(p_list)
-        item['content'] = content
+        twodir = response.meta['twodir']
+        # p_list=['段落1','段落2','段落3']
+        p_list = response.xpath('//article[@class="article-content"]//p/text()').extract()
+        item['content'] = '\n'.join(p_list)
+        # 拼接绝对路径文件名xxx.txt
+        item['filename'] = twodir + item['name'] + '.txt'
         yield item
-

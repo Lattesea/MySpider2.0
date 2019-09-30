@@ -17,3 +17,5 @@ class DaomuItem(scrapy.Item):
     name = scrapy.Field()
     # 小说内容
     content = scrapy.Field()
+    # 文件名
+    filename=scrapy.Field()

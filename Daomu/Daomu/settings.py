@@ -51,9 +51,10 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'Daomu.middlewares.DaomuDownloaderMiddleware': 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+   'Daomu.middlewares.DaomuDownloaderMiddleware': 543,
+    # 'Daomu.middlewares.RandomUseragentMiddleware':100,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -93,3 +94,4 @@ MYSQL_USER = 'root'
 MYSQL_PWD = '123456'
 MYSQL_DB = 'daomudb'
 MYSQL_CHAR = 'utf8'
+

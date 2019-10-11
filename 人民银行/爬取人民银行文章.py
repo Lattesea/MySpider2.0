@@ -13,7 +13,8 @@ from lxml import etree
 class RenminyinhangSpider(object):
     def __init__(self):
         self.url = 'http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/11040/index1.html'
-        self.url2='http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/3895219/index.html'
+        self.url2 = 'http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/3895219/index.html'
+
     def get_headers(self):
         ua = UserAgent()
         headers = {'User-Agent': ua.random,
@@ -41,6 +42,7 @@ class RenminyinhangSpider(object):
     def run(self):
         # self.get_one_page(self.url)
         self.get_two_page(self.url2)
+
 
 if __name__ == '__main__':
     spider = RenminyinhangSpider()

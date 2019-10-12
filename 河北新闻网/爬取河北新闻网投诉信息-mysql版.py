@@ -73,7 +73,7 @@ class HebeitousuSpider(object):
         date = html.xpath("//div[@class='listcon']/span[4]/p/text()")
         # print(date)
         urls = html.xpath("//div[@class='listcon']/span[3]/p/a/@href")
-
+        self.create_finger(urls)
         result = zip(topic, type, unit, date, urls)
         # print(result)
         return result
@@ -96,13 +96,17 @@ class HebeitousuSpider(object):
 
     def save(self, result):
         """
-            将数据存进csv文件
+            将数据存进mysql
         :param result:
         :return:
         """
-        with open('result.csv', 'a', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerows(result)
+        ins = 'insert into message values(%s,%s,%s,%s,%s)'
+        for i in result:
+            message_list = [i[0], i[1], i[2], i[3], i[4]]
+            self.cursor.execute(ins, message_list)
+            self.db.commit()
+            print(message_list)
+            print("成功写入数据库")
 
     def run(self):
         """

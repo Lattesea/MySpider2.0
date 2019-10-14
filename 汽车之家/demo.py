@@ -90,8 +90,10 @@ def write_html(js_list, car_info):
             content = re.search(class_info, text).group(1)  # 匹配文字内容，返回结果为 "实测""油耗""质保"
 
             car_info = car_info.replace(str("<span class='" + info.group(1) + "'></span>"),
+
                                         re.search("\"(.*?)\"", content).group(1))
     print(car_info)
+    print(type(car_info))
 
 
 if __name__ == "__main__":

@@ -6,8 +6,8 @@ from ..items import MaoyanItem
 class MaoyanSpider(scrapy.Spider):
     name = 'maoyan'
     allowed_domains = ['maoyan.com']
-    # start_urls = ['http://maoyan.com/board/4?offset=0']
 
+    # start_urls = ['http://maoyan.com/board/4?offset=0']
 
     def start_requests(self):
         for offset in range(0, 91, 10):

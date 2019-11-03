@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/上课" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coffee_server/src/coffee_server" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/YY评级基本信息" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/YY评级自定义爬取脚本1.0版" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

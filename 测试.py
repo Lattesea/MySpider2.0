@@ -2,26 +2,25 @@
 # -*- coding: utf-8 -*- 
 # @Time : 19-9-12 下午2:17 
 # @Author : Lattesea 
-# @File : 测试.py 
-import collections
+# @File : 测试.py
 
-
-class Solution:
-    # 这里要特别注意~找到任意重复的一个值并赋值到duplication[0]
-    # 函数返回True/False
-    def duplicate(self, numbers, duplication):
-        # write code here
-        flag = False
-        c = collections.Counter(numbers)
-        for k, v in c.items():
-            if v > 1:
-                duplication[0] = k
-                flag = True
-                break
-        return flag
-
-
-if __name__ == '__main__':
-    result = Solution()
-    s = {2, 3, 1, 0, 2, 5, 3}
-    result.duplicate(7, s)
+# list01 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# for i in list01:
+#     print(i)
+str_example = input("请输入字符串")
+result = 0
+for i in str_example:
+    try:
+        int(i)
+        result += int(i)
+    except:
+        continue
+print(result)
+# import re
+#
+# str_example = input("请输入字符串")
+# number = re.findall('[0-9]', str_example)
+# result = 0
+# for i in number:
+#     result += int(i)
+# print(result)

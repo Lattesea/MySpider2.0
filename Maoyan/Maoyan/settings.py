@@ -66,7 +66,8 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'Maoyan.pipelines.MaoyanPipeline': 300,
-    'Maoyan.pipelines.MaoyanMysqlPipeline': 200,
+    # 'Maoyan.pipelines.MaoyanMysqlPipeline': 200,
+    'Maoyan.pipelines.MaoyanMongoPipeline': 200
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -94,3 +95,6 @@ MYSQL_USER = 'root'
 MYSQL_PWD = '123456'
 MYSQL_DB = 'maoyandb'
 MYSQL_CHAR = 'utf8'
+
+MONGO_URI = 'localhost'
+MONGO_DB = 'maoyandb'

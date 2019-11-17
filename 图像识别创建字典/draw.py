@@ -8,14 +8,16 @@ import numpy as np
 import time
 from scipy import interpolate
 
-def smooth(x,y):
+
+def smooth(x, y):
     func = interpolate.interp1d(x, y, kind='cubic')
+
 
 def baidu(filePath):
     # 定义常量
-    APP_ID = '自己注册'
-    API_KEY = '自己注册'
-    SECRET_KEY = '自己注册'
+    APP_ID = '17711416'
+    API_KEY = 'EYb372x8lvKK9c5dBUXhwzFV'
+    SECRET_KEY = 'M9X5TSh3lBvsXphfOaEdqYqnToB1VoAo'
 
     # 初始化AipFace对象
     aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
@@ -60,7 +62,7 @@ def Draw(map):
         # if count == 4:
         #     break
         # [[  [],[]  ]]
-        for key,value in font.items():
+        for key, value in font.items():
             # print(key)
             # print(value)
             x = value[0]
@@ -82,33 +84,28 @@ def Draw(map):
             plt.close()
 
             word = baidu(filename)
-            map_list.append({key:word})
+            map_list.append({key: word})
     return map_list
-
-
-
-
 
 
 if __name__ == '__main__':
 
     start = time.time()
-    with open('写你自己的xml文件.xml','r',encoding='utf-8') as file:
+    with open('01.xml', 'r', encoding='utf-8') as file:
         xml = file.read()
 
     # print(xml)
 
     # 获取每一个 <TTGlyph.*> ... </TTGlyph>
-    lst = re.findall(r'<TTGlyph name="uni.*>[\w\W]*?</TTGlyph>',xml)
+    lst = re.findall(r'<TTGlyph name="uni.*>[\w\W]*?</TTGlyph>', xml)
     # print(lst[0])
-
 
     map = []
     for TTGlyph in lst:
         # 提取出每个字的编码 <TTGlyph name="(.*?)"
         unicode = re.findall(r'<TTGlyph name="(.*?)"', TTGlyph)[0]
         # print(unicode)
-        contours = re.findall(r'<contour>([\w\W]*?)</contour>',TTGlyph)
+        contours = re.findall(r'<contour>([\w\W]*?)</contour>', TTGlyph)
 
         # 该字的每个部首对应的坐标
         x = []
@@ -121,37 +118,30 @@ if __name__ == '__main__':
             y += y_axis + [y_axis[0]] + [None]
 
         # 数据格式为：  [{ : [[x],[y]]},{},{}{}{}]
-        map.append({unicode:[x, y]})
-
+        map.append({unicode: [x, y]})
 
     # print(map)
 
-
-    with open('map.json','w',encoding='utf-8') as file:
-        file.write(json.dumps(map,indent=2))
+    with open('map.json', 'w', encoding='utf-8') as file:
+        file.write(json.dumps(map, indent=2))
 
     print('写入完毕')
 
     map_list = Draw(map)
 
     total = len(map_list)
-    print('总共有 %d 个字'%total)
+    print('总共有 %d 个字' % total)
 
     count = 0
     for map in map_list:
         if list(map.values())[0]:
             count += 1
-    print('总共识别出 %d 个字',count)
-    print('识别率为：%.2f'%(count/total*100)+'%')
+    print('总共识别出 %d 个字', count)
+    print('识别率为：%.2f' % (count / total * 100) + '%')
 
-
-    with open('map_list.json','w',encoding='utf-8') as file:
-        file.write(json.dumps(map_list,indent=2,ensure_ascii=False))
+    with open('map_list.json', 'w', encoding='utf-8') as file:
+        file.write(json.dumps(map_list, indent=2, ensure_ascii=False))
 
     end = time.time()
 
-    print('匹配好一个woff用时：',(end - start))
-
-
-
-
+    print('匹配好一个woff用时：', (end - start))

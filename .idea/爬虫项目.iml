@@ -6,8 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/coffee_server/src/coffee_server" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/YY评级基本信息" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/YY评级自定义爬取脚本1.0版" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/python-appium-app-master/python-appium-app/douyin" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (Myspider) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

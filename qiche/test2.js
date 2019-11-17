@@ -1,12 +1,12 @@
-// var jsdom = require("jsdom");
-// var {
-// 	JSDOM
-// } = jsdom;
-// var dom = new JSDOM();
-//
-// window = dom.window;
-// document = window.document;
-// window.decodeURIComponent = decodeURIComponent;
+var jsdom = require("C:\\Program Files\\nodejs\\node_modules\\jsdom");
+var {
+	JSDOM
+} = jsdom;
+var dom = new JSDOM();
+
+window = dom.window;
+document = window.document;
+window.decodeURIComponent = decodeURIComponent;
 
 dic = {}
 

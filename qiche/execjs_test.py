@@ -1,7 +1,7 @@
 import execjs
 
 js = '''
-var jsdom = require("jsdom");
+var jsdom = require("C:\/Program Files\/nodejs\/node_modules\jsdom");
 var {
 	JSDOM
 } = jsdom;

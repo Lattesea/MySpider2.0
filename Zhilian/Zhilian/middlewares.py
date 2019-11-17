@@ -102,6 +102,7 @@ class ZhilianDownloaderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
+
 import random
 
 
@@ -119,3 +120,20 @@ class RandomUserAgentMiddleware(object):
         agent = random.choice(self.user_agents)
         request.headers['User-Agent'] = agent
         return None
+
+
+import base64
+
+""" 阿布云代理配置"""
+proxy_server = "http://http-dyn.abuyun.com:9020"
+proxy_user = "HEWGR9329K68Z11D"
+proxy_pass = "ACEBFFCDFE62615F"
+proxy_auth = "Basic " + base64.urlsafe_b64encode(bytes((proxy_user + ":" + proxy_pass), "ascii")).decode("utf8")
+
+
+class ABYProxyMiddleware(object):
+    """ 阿布云代理中间件 """
+
+    def process_request(self, request, spider):
+        request.meta["proxy"] = proxy_server
+        request.headers["Proxy-Authorization"] = proxy_auth

@@ -2,128 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14fe06e-e076-4327-a40d-0462216864ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jingdong/Jingdong/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jingdong/Jingdong/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jingdong/Jingdong/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jingdong/Jingdong/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jingdong/Jingdong/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jingdong/Jingdong/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jingdong/Jingdong/spiders/jingdong.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jingdong/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/appium控制考研帮app登录及模拟滑动操作/kaoyanbang_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/decode_douyin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/douyin_appium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/douyin_hot_id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/handle_mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/handle_web_share.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/mitmdump/mitmdump_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/豆果美食爬虫代码/handel_mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/豆果美食爬虫代码/handle_proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-appium-app-master/python-appium-app/豆果美食爬虫代码/spider_douguomeishi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python实现提取pdf内容/test1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python实现提取pdf内容/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python实现提取pdf内容/test2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/baidu_aip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/run_sgcn_spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/spiders/666.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/spiders/baidu_aip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/spiders/sgcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sgcnSpider/sgcnSpider/spiders/urls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/京东/08_jdspider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/京东/09_jdspider2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/人民银行/爬取中国人民银行文章test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/draw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC5B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC6C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC7E.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC86.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC88.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEC98.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniECA2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniECB4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniECBC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniECCE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniECD0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniECE8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniECEA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED2F.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED3A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED4B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED65.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED67.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED81.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED93.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniED9B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDAD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDB7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDC7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDC9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDE3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDE5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDF4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDFD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/font_image/uniEDFF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/maoyan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/maoyan/map_list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/map_list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniE066.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniE0D4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniE4E8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniE7DC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniE918.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniE969.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniEBBB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniEF5B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniEFB7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图像识别创建字典/uniF616.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/抖音/douyin_hot_id.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/抖音/handle_share_web.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/redisdupefilters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/ponymaSpider/spiders/ponyma.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知乎分布式爬虫/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/spiders/lagou.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lagou/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORDER BOOK/ORDER BOOK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/deal word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/test.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/word文档.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/word文档写入测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python处理各种文档/python实现提取pdf内容/test1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python处理各种文档/python实现提取pdf内容/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python处理各种文档/python实现提取pdf内容/test2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/人民邮电出版社/正则匹配" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/人民邮电出版社/爬取人民邮电出版社经管书籍.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/量化交易/正则匹配" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/量化交易/量化交易.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/量化交易/量化交易test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/量化交易/量化交易test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/爬虫项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/爬虫项目.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maoyan/maoyan.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Maoyan/maoyan.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MySpider2.0" beforeDir="false" afterPath="$PROJECT_DIR$/MySpider2.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zhilian/Zhilian/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zhilian/Zhilian/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zhilian/Zhilian/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zhilian/Zhilian/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiche/execjs_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiche/execjs_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiche/qiche.js" beforeDir="false" afterPath="$PROJECT_DIR$/qiche/qiche.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiche/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/qiche/test2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图像识别创建字典/draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/图像识别创建字典/draw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python实现提取pdf内容/test1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python实现提取pdf内容/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python实现提取pdf内容/test2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/东方财富网/爬取东方财富网业绩报表.py" beforeDir="false" afterPath="$PROJECT_DIR$/东方财富网/爬取东方财富网业绩报表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/体育/Player Salary Scrape Request(2).docx" beforeDir="false" afterPath="$PROJECT_DIR$/体育/Player Salary Scrape Request(2).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,17 +46,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>.*: .*</find>
-      <find>(.*): (.*)</find>
-      <find>doc</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>&quot;$1&quot;: &quot;$2&quot;</replace>
-      <replace>&quot;$1&quot;: &quot;$2&quot;,</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,7 +65,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/抖音" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -187,7 +85,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.09_jdspider2">
+  <component name="RunManager" selected="Python.爬取东方财富网业绩报表">
+    <configuration name="爬取人民邮电出版社经管书籍" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/人民邮电出版社" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/人民邮电出版社/爬取人民邮电出版社经管书籍.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="09_jdspider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬取快代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="爬取东方财富网业绩报表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,32 +138,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/东方财富网" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取快代理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="计算总和" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/东方财富网/爬取东方财富网业绩报表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,6 +215,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="量化交易" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/量化交易" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/量化交易/量化交易.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="爬取体育人员信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,27 +258,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬取电影名称和链接并实现增量爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/电影天堂" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/电影天堂/爬取电影名称和链接并实现增量爬取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="爬取安居客小区信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,6 +271,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/安居客/爬取安居客小区信息.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="字符串排列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/牛客网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/牛客网/字符串排列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,6 +355,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和字体反爬篇.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取东方财富网业绩报表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/东方财富网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/东方财富网/爬取东方财富网业绩报表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,7 +469,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="字符串排列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="爬取西刺代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -533,11 +477,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/牛客网" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/牛客网/字符串排列.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取西刺代理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -580,6 +524,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和翻页篇.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取快代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取快代理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -672,7 +637,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬取西刺代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="爬取电影名称和链接并实现增量爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -680,11 +645,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/电影天堂" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取西刺代理.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/电影天堂/爬取电影名称和链接并实现增量爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -714,7 +679,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="douyin_appium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="爬取微信公众号文章" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -722,12 +687,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/微信公众号" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/douyin_appium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -736,7 +701,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_web_share" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="计算总和" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -744,12 +709,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin/handle_web_share.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -758,7 +722,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="量化交易test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -766,12 +730,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Maoyan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/量化交易" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maoyan/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/量化交易/量化交易test3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -780,7 +744,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word文档写入测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -788,12 +752,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python实现提取pdf内容" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python处理各种文档/python处理word文档" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python实现提取pdf内容/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python处理各种文档/python处理word文档/word文档写入测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -803,19 +767,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run" />
-      <item itemvalue="Python.douyin_appium" />
-      <item itemvalue="Python.handle_web_share" />
-      <item itemvalue="Python.test1" />
       <item itemvalue="Python.09_jdspider2" />
+      <item itemvalue="Python.爬取人民邮电出版社经管书籍" />
+      <item itemvalue="Python.word文档写入测试" />
+      <item itemvalue="Python.量化交易test3" />
+      <item itemvalue="Python.爬取东方财富网业绩报表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.爬取东方财富网业绩报表" />
+        <item itemvalue="Python.量化交易test3" />
+        <item itemvalue="Python.word文档写入测试" />
+        <item itemvalue="Python.爬取人民邮电出版社经管书籍" />
         <item itemvalue="Python.09_jdspider2" />
-        <item itemvalue="Python.douyin_appium" />
-        <item itemvalue="Python.handle_web_share" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -840,7 +804,14 @@
       <workItem from="1573785941448" duration="17555000" />
       <workItem from="1573896980518" duration="9135000" />
       <workItem from="1573924267639" duration="1747000" />
-      <workItem from="1573970794607" duration="10259000" />
+      <workItem from="1573970794607" duration="13804000" />
+      <workItem from="1574072142682" duration="5151000" />
+      <workItem from="1574498757193" duration="33000" />
+      <workItem from="1574498819033" duration="2151000" />
+      <workItem from="1574584999789" duration="4525000" />
+      <workItem from="1574660890381" duration="5885000" />
+      <workItem from="1574760574633" duration="1558000" />
+      <workItem from="1574773388893" duration="4445000" />
     </task>
     <servers />
   </component>
@@ -865,10 +836,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Myspider$handle_web_share.coverage" NAME="handle_web_share Coverage Results" MODIFIED="1573873088946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin" />
+    <SUITE FILE_PATH="coverage/Myspider$word.coverage" NAME="word文档写入测试 Coverage Results" MODIFIED="1574603463266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python处理各种文档/python处理word文档" />
     <SUITE FILE_PATH="coverage/Myspider$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1573726385506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python实现提取pdf内容" />
     <SUITE FILE_PATH="coverage/Myspider$09_jdspider2.coverage" NAME="09_jdspider2 Coverage Results" MODIFIED="1574010629144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/京东" />
     <SUITE FILE_PATH="coverage/Myspider$run.coverage" NAME="run Coverage Results" MODIFIED="1573579837914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maoyan" />
     <SUITE FILE_PATH="coverage/Myspider$douyin_appium.coverage" NAME="douyin_appium Coverage Results" MODIFIED="1573979472492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin" />
+    <SUITE FILE_PATH="coverage/Myspider$test3.coverage" NAME="量化交易test3 Coverage Results" MODIFIED="1574676691062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化交易" />
     <SUITE FILE_PATH="coverage/Myspider$test.coverage" NAME="test Coverage Results" MODIFIED="1573568866141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/全国建筑市场监管平台" />
+    <SUITE FILE_PATH="coverage/Myspider$.coverage" NAME="爬取东方财富网业绩报表 Coverage Results" MODIFIED="1574785930889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/东方财富网" />
   </component>
 </project>

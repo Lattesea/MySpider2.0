@@ -39,7 +39,7 @@ class WeixingongzhonghaoSpider(object):
     def get_page(self, number):
         list_result = []
         dict_result = {}
-        html_json = requests.get(url=self.url, headers=self.get_headers(number)['headers'], params=self.get_headers()[
+        html_json = requests.get(url=self.url, headers=self.get_headers(number)['headers'], params=self.get_headers(1)[
             'params']).text
         html_py = json.loads(html_json)
         print(html_py)

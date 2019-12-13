@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for Zhilian project
+# Scrapy settings for DongFang project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,13 +9,13 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Zhilian'
+BOT_NAME = 'DongFang'
 
-SPIDER_MODULES = ['Zhilian.spiders']
-NEWSPIDER_MODULE = 'Zhilian.spiders'
+SPIDER_MODULES = ['DongFang.spiders']
+NEWSPIDER_MODULE = 'DongFang.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'Zhilian (+http://www.yourdomain.com)'
+# USER_AGENT = 'DongFang (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -26,37 +26,34 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 0.5
+# DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-# COOKIES_ENABLED = True
+# COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 # TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'en',
-    'User-Agent': 'Mozilla/5.0'
+  'Referer': 'http://data.eastmoney.com/bbsj/201909/yjbb.html'
 }
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'Zhilian.middlewares.ZhilianSpiderMiddleware': 543,
-# }
+SPIDER_MIDDLEWARES = {
+    'DongFang.middlewares.DongfangSpiderMiddleware': 543,
+    'DongFang.middlewares.RandomUserAgentMiddleware': 900
+}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-    # 'Zhilian.middlewares.ABYProxyMiddleware':1,
-    'Zhilian.middlewares.ZhilianDownloaderMiddleware': 543,
-    'Zhilian.middlewares.RandomUserAgentMiddleware': 900
-}
+# DOWNLOADER_MIDDLEWARES = {
+#    'DongFang.middlewares.DongfangDownloaderMiddleware': 543,
+# }
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -67,8 +64,8 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'Zhilian.pipelines.ZhilianPipeline': 300,
-    'Zhilian.pipelines.ZhilianMongoPipeline': 200,
+    'DongFang.pipelines.DongfangPipeline': 300,
+    'DongFang.pipelines.DongfangMongoPipeline': 200,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -91,6 +88,7 @@ ITEM_PIPELINES = {
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
 MY_USER_AGENT = [
     "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
     "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)",
@@ -131,4 +129,4 @@ MY_USER_AGENT = [
 ]
 
 MONGO_URI = 'localhost'
-MONGO_DB = 'zhilian'
+MONGO_DB = 'Dongfang'

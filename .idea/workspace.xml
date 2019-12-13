@@ -2,39 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14fe06e-e076-4327-a40d-0462216864ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lagou/Lagou/spiders/lagou.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lagou/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ORDER BOOK/ORDER BOOK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/deal word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/test.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/word文档.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python处理各种文档/python处理word文档/word文档写入测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python处理各种文档/python实现提取pdf内容/test1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python处理各种文档/python实现提取pdf内容/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python处理各种文档/python实现提取pdf内容/test2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/人民邮电出版社/正则匹配" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/人民邮电出版社/爬取人民邮电出版社经管书籍.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/量化交易/正则匹配" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/量化交易/量化交易.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/量化交易/量化交易test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/量化交易/量化交易test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/Bitfinex/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/Bitfinex/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/Bitfinex/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/Bitfinex/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/Bitfinex/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/Bitfinex/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/Bitfinex/spiders/bitfinex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/bitfinex.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bitfinex/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/DongFang/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/DongFang/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/DongFang/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/DongFang/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/DongFang/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/DongFang/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/DongFang/spiders/dongfang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/dongfang.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DongFang/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradingview-scraper-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradingview-scraper-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradingview-scraper-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradingview-scraper-master/.idea/traderview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradingview-scraper-master/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradingview-scraper-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tradingview-scraper-master/scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/appium测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/draw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/jsonCookie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/pyppeteer测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/各种测试用例/测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据可视化测试/柱形图示范.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据可视化测试/柱状图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/正则匹配" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jingdong/Jingdong/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jingdong/Jingdong/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MySpider2.0" beforeDir="false" afterPath="$PROJECT_DIR$/MySpider2.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python实现提取pdf内容/test1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python实现提取pdf内容/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python实现提取pdf内容/test2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/东方财富网/爬取东方财富网业绩报表.py" beforeDir="false" afterPath="$PROJECT_DIR$/东方财富网/爬取东方财富网业绩报表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/体育/Player Salary Scrape Request(2).docx" beforeDir="false" afterPath="$PROJECT_DIR$/体育/Player Salary Scrape Request(2).docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zhilian/Zhilian/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zhilian/Zhilian/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/量化交易/量化交易test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/量化交易/量化交易test3.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,12 +74,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/抖音" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,20 +92,8 @@
       <recent name="$PROJECT_DIR$/智联招聘" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.爬取东方财富网业绩报表">
-    <configuration name="爬取人民邮电出版社经管书籍" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.柱状图">
+    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/人民邮电出版社" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/人民邮电出版社/爬取人民邮电出版社经管书籍.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09_jdspider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="柱状图" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,12 +123,75 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/京东" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据可视化测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/京东/09_jdspider2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据可视化测试/柱状图.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取微信公众号文章" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/微信公众号" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取西刺代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取西刺代理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取电影名称和链接并实现增量爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/电影天堂" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/电影天堂/爬取电影名称和链接并实现增量爬取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +214,69 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/东方财富网/爬取东方财富网业绩报表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="计算总和翻页篇" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和翻页篇.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取快代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取快代理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取红薯小说" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/红薯小说网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/红薯小说网/爬取红薯小说.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,6 +319,176 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取河北新闻网投诉信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/河北新闻网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/河北新闻网/爬取河北新闻网投诉信息.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="全国建筑市场监管平台完整版" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/全国建筑市场监管平台" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/全国建筑市场监管平台/全国建筑市场监管平台完整版.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取快代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取快代理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取当当百名榜书籍信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当当网" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当当网/爬取当当百名榜书籍信息.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取微信公众号文章" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/微信公众号" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="计算总和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取智联招聘" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/智联招聘" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/智联招聘/爬取智联招聘.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="计算总和字体反爬篇" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫项目" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和字体反爬篇.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +603,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬取快代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="爬取当当百名榜书籍信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,11 +611,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当当网" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取快代理.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当当网/爬取当当百名榜书籍信息.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,7 +624,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬取淘宝商品" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,32 +632,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/淘宝" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/淘宝/爬取淘宝商品.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="计算总和字体反爬篇" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和字体反爬篇.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,7 +730,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬取当当百名榜书籍信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="爬取淘宝商品" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,11 +738,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当当网" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/淘宝" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当当网/爬取当当百名榜书籍信息.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/淘宝/爬取淘宝商品.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -469,28 +751,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬取西刺代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取西刺代理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="appium测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -502,7 +763,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -511,7 +773,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="计算总和翻页篇" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pyppeteer测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -519,180 +781,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和翻页篇.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取快代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代理池" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代理池/爬取快代理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取红薯小说" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/红薯小说网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/红薯小说网/爬取红薯小说.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取智联招聘" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/智联招聘" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/智联招聘/爬取智联招聘.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取微信公众号文章" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/微信公众号" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取河北新闻网投诉信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/河北新闻网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/河北新闻网/爬取河北新闻网投诉信息.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取电影名称和链接并实现增量爬取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/电影天堂" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/电影天堂/爬取电影名称和链接并实现增量爬取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取当当百名榜书籍信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当当网" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当当网/爬取当当百名榜书籍信息.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬取微信公众号文章" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/微信公众号" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/各种测试用例" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/微信公众号/爬取微信公众号文章.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/各种测试用例/pyppeteer测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -701,7 +795,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="计算总和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫项目" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -709,55 +803,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glidedsky" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/glidedsky/计算总和.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="量化交易test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/量化交易" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DongFang" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/量化交易/量化交易test3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="word文档写入测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python处理各种文档/python处理word文档" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python处理各种文档/python处理word文档/word文档写入测试.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DongFang/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -767,21 +818,33 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.09_jdspider2" />
-      <item itemvalue="Python.爬取人民邮电出版社经管书籍" />
-      <item itemvalue="Python.word文档写入测试" />
-      <item itemvalue="Python.量化交易test3" />
-      <item itemvalue="Python.爬取东方财富网业绩报表" />
+      <item itemvalue="Python.测试" />
+      <item itemvalue="Python.appium测试" />
+      <item itemvalue="Python.pyppeteer测试" />
+      <item itemvalue="Python.run (1)" />
+      <item itemvalue="Python.柱状图" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.爬取东方财富网业绩报表" />
-        <item itemvalue="Python.量化交易test3" />
-        <item itemvalue="Python.word文档写入测试" />
-        <item itemvalue="Python.爬取人民邮电出版社经管书籍" />
-        <item itemvalue="Python.09_jdspider2" />
+        <item itemvalue="Python.柱状图" />
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.pyppeteer测试" />
+        <item itemvalue="Python.测试" />
+        <item itemvalue="Python.appium测试" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -811,7 +874,28 @@
       <workItem from="1574584999789" duration="4525000" />
       <workItem from="1574660890381" duration="5885000" />
       <workItem from="1574760574633" duration="1558000" />
-      <workItem from="1574773388893" duration="4445000" />
+      <workItem from="1574773388893" duration="9862000" />
+      <workItem from="1574962737399" duration="5891000" />
+      <workItem from="1575000873002" duration="7444000" />
+      <workItem from="1575036662135" duration="2355000" />
+      <workItem from="1575056714004" duration="1189000" />
+      <workItem from="1575089845211" duration="1840000" />
+      <workItem from="1575105752083" duration="3568000" />
+      <workItem from="1575196553945" duration="1274000" />
+      <workItem from="1575271915101" duration="15705000" />
+      <workItem from="1575364907615" duration="5869000" />
+      <workItem from="1575434258305" duration="4960000" />
+      <workItem from="1575541996696" duration="1680000" />
+      <workItem from="1575558540277" duration="6383000" />
+      <workItem from="1575608166905" duration="1436000" />
+      <workItem from="1575636257082" duration="3906000" />
+      <workItem from="1575779121095" duration="4085000" />
+      <workItem from="1575813470923" duration="3810000" />
+      <workItem from="1575870115334" duration="2551000" />
+      <workItem from="1575983677761" duration="4672000" />
+      <workItem from="1576066858698" duration="6164000" />
+      <workItem from="1576239489719" duration="317000" />
+      <workItem from="1576239919929" duration="1342000" />
     </task>
     <servers />
   </component>
@@ -834,15 +918,48 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1576242209702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576242209702" />
+    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1576242209702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576242209702" />
+    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1576242209701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576242209701" />
+    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1576242209702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576242209702" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1576239920287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576239920287" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576242385972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1576242385972" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Myspider$handle_web_share.coverage" NAME="handle_web_share Coverage Results" MODIFIED="1573873088946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin" />
     <SUITE FILE_PATH="coverage/Myspider$word.coverage" NAME="word文档写入测试 Coverage Results" MODIFIED="1574603463266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python处理各种文档/python处理word文档" />
-    <SUITE FILE_PATH="coverage/Myspider$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1573726385506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python实现提取pdf内容" />
-    <SUITE FILE_PATH="coverage/Myspider$09_jdspider2.coverage" NAME="09_jdspider2 Coverage Results" MODIFIED="1574010629144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/京东" />
-    <SUITE FILE_PATH="coverage/Myspider$run.coverage" NAME="run Coverage Results" MODIFIED="1573579837914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maoyan" />
+    <SUITE FILE_PATH="coverage/Myspider$demo.coverage" NAME="demo Coverage Results" MODIFIED="1575365172090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Myspider$mitmdump_test.coverage" NAME="mitmdump_test Coverage Results" MODIFIED="1575275009431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-appium-app-master/python-appium-app/mitmdump" />
+    <SUITE FILE_PATH="coverage/Myspider$test3.coverage" NAME="量化交易test3 Coverage Results" MODIFIED="1574787029125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化交易" />
+    <SUITE FILE_PATH="coverage/Myspider$pyppeteer.coverage" NAME="pyppeteer测试 Coverage Results" MODIFIED="1575901269177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/各种测试用例" />
+    <SUITE FILE_PATH="coverage/Myspider$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1575056871867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tradingview-scraper-master" />
     <SUITE FILE_PATH="coverage/Myspider$douyin_appium.coverage" NAME="douyin_appium Coverage Results" MODIFIED="1573979472492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin" />
-    <SUITE FILE_PATH="coverage/Myspider$test3.coverage" NAME="量化交易test3 Coverage Results" MODIFIED="1574676691062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化交易" />
+    <SUITE FILE_PATH="coverage/Myspider$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1573726385506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python实现提取pdf内容" />
+    <SUITE FILE_PATH="coverage/Myspider$run.coverage" NAME="run Coverage Results" MODIFIED="1575572768354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bitfinex" />
+    <SUITE FILE_PATH="coverage/Myspider$subprocess.coverage" NAME="subprocess Coverage Results" MODIFIED="1575036799188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProgramData/Anaconda3/Lib" />
+    <SUITE FILE_PATH="coverage/Myspider$09_jdspider2.coverage" NAME="09_jdspider2 Coverage Results" MODIFIED="1574010629144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/京东" />
     <SUITE FILE_PATH="coverage/Myspider$test.coverage" NAME="test Coverage Results" MODIFIED="1573568866141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/全国建筑市场监管平台" />
-    <SUITE FILE_PATH="coverage/Myspider$.coverage" NAME="爬取东方财富网业绩报表 Coverage Results" MODIFIED="1574785930889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/东方财富网" />
+    <SUITE FILE_PATH="coverage/Myspider$handle_web_share.coverage" NAME="handle_web_share Coverage Results" MODIFIED="1573873088946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-appium-app-master/python-appium-app/douyin" />
+    <SUITE FILE_PATH="coverage/Myspider$.coverage" NAME="柱状图 Coverage Results" MODIFIED="1576242209687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据可视化测试" />
+    <SUITE FILE_PATH="coverage/Myspider$appium.coverage" NAME="appium测试 Coverage Results" MODIFIED="1575796922947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Myspider$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1576097262308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DongFang" />
   </component>
 </project>

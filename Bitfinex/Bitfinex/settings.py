@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for Zhilian project
+# Scrapy settings for Bitfinex project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Zhilian'
+BOT_NAME = 'Bitfinex'
 
-SPIDER_MODULES = ['Zhilian.spiders']
-NEWSPIDER_MODULE = 'Zhilian.spiders'
+SPIDER_MODULES = ['Bitfinex.spiders']
+NEWSPIDER_MODULE = 'Bitfinex.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'Zhilian (+http://www.yourdomain.com)'
-
+# USER_AGENT = 'Bitfinex (+http://www.yourdomain.com)'
+LOG_LEVEL = 'INFO'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
@@ -26,36 +26,41 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 0.5
+DOWNLOAD_DELAY = 0
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-# COOKIES_ENABLED = True
+# COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 # TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'en',
-    'User-Agent': 'Mozilla/5.0'
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "if-none-match": 'W/"45431760843e288991089a46c38631d9"',
+    "origin": "https://www.bitfinex.com",
+    "referer": "https://www.bitfinex.com/",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
 }
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'Zhilian.middlewares.ZhilianSpiderMiddleware': 543,
+#    'Bitfinex.middlewares.BitfinexSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    # 'Zhilian.middlewares.ABYProxyMiddleware':1,
-    'Zhilian.middlewares.ZhilianDownloaderMiddleware': 543,
-    'Zhilian.middlewares.RandomUserAgentMiddleware': 900
+    'Bitfinex.middlewares.BitfinexDownloaderMiddleware': 543,
+    # 'Bitfinex.middlewares.BitfinexDownloaderMiddleware': 543,
+    'Bitfinex.middlewares.RandomUserAgentMiddleware': 900
 }
 
 # Enable or disable extensions
@@ -67,8 +72,9 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'Zhilian.pipelines.ZhilianPipeline': 300,
-    'Zhilian.pipelines.ZhilianMongoPipeline': 200,
+    # 'Bitfinex.pipelines.BitfinexPipeline': 300,
+    # 'Bitfinex.pipelines.BitfinexMongoPipeline': 200,
+    'Bitfinex.pipelines.BitfinexMySQLPipeline': 200
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -91,6 +97,7 @@ ITEM_PIPELINES = {
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
 MY_USER_AGENT = [
     "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
     "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)",
@@ -129,6 +136,12 @@ MY_USER_AGENT = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
 
 ]
-
 MONGO_URI = 'localhost'
-MONGO_DB = 'zhilian'
+MONGO_DB = 'bitfinex'
+
+MYSQL_HOST = 'localhost'
+MYSQL_DB = 'bitfinexdb'
+MYSQL_USER = 'root'
+MYSQL_PASSWD = '123456'
+MYSQL_CHARSET = 'utf8'
+MYSQL_PORT = 3306

@@ -1,6 +1,6 @@
 Flask==1.1.1
 Flask-SQLAlchemy==2.4.0
-mitmproxy==4.0.4
+mitmproxy==7.0.3
 mysql==0.0.2
 mysql-client==0.0.1
 mysqlclient==1.4.4
